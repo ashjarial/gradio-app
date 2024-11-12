@@ -1,6 +1,6 @@
 import gradio as gr
 import pandas as pd
-
+import numpy
 
 def relevation_metric(summary:str,transcript:str)->int:
     
